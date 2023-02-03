@@ -1,39 +1,67 @@
-
 {% extends 'main.html' %}
+{% load static %}
+{% block content %}
+    <div class="container my-2">
 
-{% block content  %}
 
-<h1>Our Team</h1>
-    
-<div class="cards">
-    <div class="card card1">
-        <div class="container">
-            <img src="images/WhatsApp Image 2023-02-02 at 21.58.38.jpeg" alt="las vegas">
-        </div>
-        <div class="details">
-            <h3>Las Vegas</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
+        <h1 class="text-center">Our Team</h1>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="{% static 'base/images/nazarii.jpeg' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Nazarii Savorona</h5>
+                        <p class="card-text">A highly accomplished, skilled and knowledgeable computer science student
+                            with
+                            extensive knowledge of programming and computer applications. Looking for an opportunity in
+                            the
+                            field of information technology as computer programmer in a renowned organization.
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <img src="{% static 'base/images/iqra.jpeg' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Iqra Akhtar</h5>
+                        <p class="card-text">Expert computer scientist with diverse work experience, including
+                            programming, software development, and consulting. Extensive knowledge of software
+                            development cycle as well as proficiency in several programming languages.
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <img src="{% static 'base/images/anton.jpeg' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Anton Balykov</h5>
+                        <p class="card-text">I am a 4th year undergraduate student at Faculty of Computer Science and
+                            Cybernetics of Taras Shevchenko National University of Kyiv. I am a Software Engineer,
+                            passionate about AI, keen on programming in Python, GoLang, Java, C++programming languages.
+                            Got a chance to try out several frameworks, namely Spring for Java, Ruby on Rails for Ruby.
+                            Also familiar with SQL, MatLab, Maple, Git, UnrealEngine. Looking forward to learning more
+                            about AI and Machine Learning.
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <img src="{% static 'base/images/ruslan.jpeg' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ruslan Volchetskyi</h5>
+                        <p class="card-text">Software Engineer, 4th year student at Faculty of Computer Science and
+                            Cybernetics of Taras Shevchenko National University of Kyiv with a great set of skills
+                            like Python, Java, Go, C++, knowledge of SQL, Git, UnrealEngine and vast potential for
+                            software development and computer science. I'm really fond of AI, game development and
+                            problem solving as well as collaborative work and team communication. As an astute
+                            student, I'm looking for different opportunities in various fields of IT.
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="card card2">
-        <div class="container">
-            <img src="images/WhatsApp Image 2023-02-02 at 21.58.38.jpeg" alt="New York">
-        </div>
-        <div class="details">
-            <h3>New York</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
-        </div>
-    </div>
-    <div class="card card3">
-        <div class="container">
-            <img src="images/WhatsApp Image 2023-02-02 at 21.58.38.jpeg" alt="Singapore">
-        </div>
-        <div class="details">
-            <h3>Singapore</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
-        </div>
-    </div>
-</div>
-
-
-  {% endblock content  %}
+{% endblock content %}
