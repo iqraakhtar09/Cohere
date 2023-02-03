@@ -1,0 +1,182 @@
+[
+    {
+        "client": "<not serializable>",
+        "id": "c6a08aa8-775f-462e-8a3a-108823fb90e0",
+        "input": "every time",
+        "prediction": "sadness",
+        "confidence": 0.5812411,
+        "labels": {
+            "anger": [
+                0.05394872
+            ],
+            "disgust": [
+                0.042799033
+            ],
+            "fear": [
+                0.095411725
+            ],
+            "happiness": [
+                0.02323607
+            ],
+            "neutral": [
+                0.12474668
+            ],
+            "sadness": [
+                0.5812411
+            ],
+            "surprise": [
+                0.07861668
+            ]
+        }
+    },
+    {
+        "client": "<not serializable>",
+        "id": "2ae427c1-af9f-46f8-af86-25b82eb50adf",
+        "input": "I could see beautiful picturesque views around me",
+        "prediction": "fear",
+        "confidence": 0.8556147,
+        "labels": {
+            "anger": [
+                0.0016244156
+            ],
+            "disgust": [
+                0.0059100827
+            ],
+            "fear": [
+                0.8556147
+            ],
+            "happiness": [
+                0.019292584
+            ],
+            "neutral": [
+                0.09068055
+            ],
+            "sadness": [
+                0.009538597
+            ],
+            "surprise": [
+                0.017339054
+            ]
+        }
+    },
+    {
+        "client": "<not serializable>",
+        "id": "2a704a4b-53b4-4d6e-8cd9-d33980865531",
+        "input": "This is why I came here",
+        "prediction": "neutral",
+        "confidence": 0.29766545,
+        "labels": {
+            "anger": [
+                0.091720164
+            ],
+            "disgust": [
+                0.13446921
+            ],
+            "fear": [
+                0.15015231
+            ],
+            "happiness": [
+                0.1250367
+            ],
+            "neutral": [
+                0.29766545
+            ],
+            "sadness": [
+                0.07751136
+            ],
+            "surprise": [
+                0.12344479
+            ]
+        }
+    },
+    {
+        "client": "<not serializable>",
+        "id": "b697563d-c0f0-4639-bce2-d33f676b4fb8",
+        "input": "We'll get over it, bad times will pass",
+        "prediction": "sadness",
+        "confidence": 0.9658476,
+        "labels": {
+            "anger": [
+                0.0029019022
+            ],
+            "disgust": [
+                0.003203854
+            ],
+            "fear": [
+                0.0021476608
+            ],
+            "happiness": [
+                0.021515256
+            ],
+            "neutral": [
+                0.004302551
+            ],
+            "sadness": [
+                0.9658476
+            ],
+            "surprise": [
+                8.1183935e-05
+            ]
+        }
+    },
+    {
+        "client": "<not serializable>",
+        "id": "62a6b4cf-5525-42a0-af07-0473d0aeffca",
+        "input": "Please don't tell me! It is impossible!",
+        "prediction": "surprise",
+        "confidence": 0.81819075,
+        "labels": {
+            "anger": [
+                0.023093574
+            ],
+            "disgust": [
+                0.053822022
+            ],
+            "fear": [
+                0.081229344
+            ],
+            "happiness": [
+                0.0037613383
+            ],
+            "neutral": [
+                0.0077545317
+            ],
+            "sadness": [
+                0.012148455
+            ],
+            "surprise": [
+                0.81819075
+            ]
+        }
+    },
+    {
+        "client": "<not serializable>",
+        "id": "df34560f-1534-46f2-86cc-fdf406d12c45",
+        "input": "Oh god... Not cleaning Bob's desk again! He's so filthy!",
+        "prediction": "disgust",
+        "confidence": 0.58850336,
+        "labels": {
+            "anger": [
+                0.13256247
+            ],
+            "disgust": [
+                0.58850336
+            ],
+            "fear": [
+                0.21486834
+            ],
+            "happiness": [
+                0.006470128
+            ],
+            "neutral": [
+                0.0014695537
+            ],
+            "sadness": [
+                0.009568208
+            ],
+            "surprise": [
+                0.046557914
+            ]
+        }
+    }
+]

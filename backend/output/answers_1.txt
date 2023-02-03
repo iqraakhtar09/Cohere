@@ -1,0 +1,24 @@
+{
+    "id": 4,
+    "data": "How much water do the average human need to consume every day?"
+}
+[
+    {
+        "client": "<not serializable>",
+        "id": "32ce70de-e401-4110-aa7b-5b299738fc70",
+        "input": "System of interconnected networks using the same protocols to communicate",
+        "prediction": "bad",
+        "confidence": 0.9214816,
+        "labels": {
+            "average": [
+                0.019470664
+            ],
+            "bad": [
+                0.9214816
+            ],
+            "good": [
+                0.05904772
+            ]
+        }
+    }
+]
