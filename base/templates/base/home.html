@@ -1,0 +1,54 @@
+
+{% extends 'main.html' %}
+
+{% block content  %}
+
+  <!-- Main -->
+  <main class="container">
+
+    <div class="card border-primary chat-window my-5">
+      <div class="card-header chat-header">
+        Chat goes here
+      </div>
+
+      <section class="card-body chat-messages">
+
+        <div class="card mb-3 col-10 float-end">
+          <div class="card-body p-2">
+            <h6 class="card-title mb-1">Iqra</h6>
+            <p class="card-text mb-1"> {{text}} </p>
+            <p class="card-text fst-italic"><small class="text-muted">just now</small></p>
+          </div>
+        </div>
+
+        <div class="card mb-3 col-10">
+          <div class="card-body p-2">
+            <h6 class="card-title mb-1">Masoom AI</h6>
+            <p class="card-text mb-1">{{ res}}</p>
+            <p class="card-text fst-italic"><small class="text-muted">just now</small></p>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="card-footer chat-footer">
+          <div class="input-group">
+            <form action="" method="POST" >
+                {% csrf_token %}
+          <input class="form-control" type="text" name="text" id="userMessage"
+            placeholder="Type your message..." value="iqra is a good girl ?" >
+            <input class="btn btn-outline-primary" type="submit" value="send"  >
+          {% comment %} <button type='submit' class="btn btn-outline-primary">Send</button> {% endcomment %}
+        </form>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+
+  </footer>
+
+
+  {% endblock content  %}
